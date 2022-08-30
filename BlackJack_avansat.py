@@ -26,7 +26,7 @@ def play_again():
         i = 1
         # i ne va spune cel mai mare index al scorului listei de carti, la inceput 2 carti (index 0 si 1)
         if score_computer == 21:
-            return score_computer
+            return score_computer, computer_cards_list
         while score_computer < 17:
             # computerul va trage carti pana cand scorul sau va depasi 17
             computer_cards_list.append(random.choice(list(cards.keys())))
