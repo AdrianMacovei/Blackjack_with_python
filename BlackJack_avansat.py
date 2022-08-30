@@ -1,5 +1,5 @@
 import random
-from art import logo
+from art_blackjack import logo
 import os
 
 
